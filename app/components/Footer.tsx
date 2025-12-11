@@ -10,17 +10,17 @@ import logo from "../assets/Group 236.svg"
 function Footer() {
 return (
     <footer className="bg-[#202221] h-[500px] max-[1025px]:h-screen flex justify-around items-center max-[1025px]:flex-col">
-        <div className="flex flex-col justify-around h-full">
-            <div className="w-[440px] rounded-2xl p-2.5 border border-white flex justify-between">
+        <div className="flex flex-col justify-around h-full max-[450px]:gap-[30px]">
+            <div className="w-[440px] max-[450px]:w-full rounded-2xl p-2.5 border border-white flex justify-between">
                 <input type="text" placeholder="Enter Your Email Here" className="text-white text-[14px]"/>
-                <Button Text="Subscribe To Newsletter" className="bg-[#2E302F] text-white border-none w-[185px] h-[45px] rounded-[15px] text-[12px] font-bold" />
+                <Button Text="Subscribe To Newsletter" className="bg-[#2E302F] text-white border-none w-[185px] max-[450px]:w-[93] h-[45px] rounded-[15px] text-[12px] font-bold" />
             </div>
-            <h1 className="w-[440px] h-[68px] text-white text-[24px] font-extrabold">
+            <h1 className="w-[440px] max-[450px]:w-full h-[68px] text-white text-[24px] font-extrabold">
                 Signup and start enjoying the benifits today!
             </h1>
             <Button Text={"Sign Up To Lilypads"}
             className="w-[200px] h-[60px] text-[14px] font-extrabold bg-[#7C5AC7] text-white border-none"/>
-            <div className="flex">
+            <div className="flex flex-wrap">
                 <Image src={facebook} alt="facebook"/>
                 <Image src={youtube} alt="youtube"/>
                 <Image src={twitter} alt="twitter"/>
@@ -30,7 +30,7 @@ return (
             </div>
         </div>
         <div className="flex flex-col justify-around h-full">
-            <div className="flex items-center gap-[70]">
+            <div className="flex items-center gap-[70] max-[525px]:mb-5">
                 <Image src={logo} alt="Logo" width={120} height={70}/>
                 <div>
                     <p className="text-[12px] text-white">Reach Us At</p>
@@ -39,7 +39,7 @@ return (
                     MD 21046</p>
                 </div>
             </div>
-            <div className="grid grid-rows-2 grid-cols-3 h-[260] w-full">
+            <div className="grid grid-rows-2 grid-cols-3 h-[260] w-full max-[525px]:grid-cols-2 max-[525px]:grid-rows-3 max-[525px]:h-fit">
                 <div className="flex flex-col gap-2">
                     <p className="text-[12px] text-white">Network</p>
                     <p className="w-[180] text-[12px] opacity-60 text-white">Community</p>
