@@ -9,7 +9,7 @@ import Image from "next/image"
 import logo from "../assets/Group 236.svg"
 function Footer() {
 return (
-    <footer className="bg-[#202221] h-[500px] flex justify-around items-center">
+    <footer className="bg-[#202221] h-[500px] max-[1025px]:h-screen flex justify-around items-center max-[1025px]:flex-col">
         <div className="flex flex-col justify-around h-full">
             <div className="w-[440px] rounded-2xl p-2.5 border border-white flex justify-between">
                 <input type="text" placeholder="Enter Your Email Here" className="text-white text-[14px]"/>

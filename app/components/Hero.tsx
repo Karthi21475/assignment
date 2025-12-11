@@ -5,8 +5,8 @@ import hero2 from "../assets/hero2.svg"
 import Button from "./Button";
 function Hero() {
 return (
-    <div className="h-[900px] w-screen flex justify-between pl-[75px]">
-        <div className="h-[900px] flex flex-col justify-center">
+    <div className="h-[900px] w-screen flex justify-between">
+        <div className="h-[fit] flex flex-col justify-center z-3 bg-[#ffffffad] pl-[75px]">
             <p className="text-[#9E2349] w-fit h-6 text-[16px]/24px">Welcome to the</p>
             <div className="w-[548px] h-[338px] gap-2.5 mb-10">
                 <h1 className="text-[71px]/20 font-[DM_Serif_Display] font-normal h-[276px]">Unprecedented Era of <span className="text-[#9E2349]">Real Estate Investing</span></h1>
@@ -28,7 +28,7 @@ return (
                 </div>
             </div>
         </div>
-        <div className="w-[595px] max-w-full h-[900px] relative">
+        <div className="w-[595px] max-w-full h-[900px] relative ">
             <Image
                 src={heroBg}
                 alt="HeroBG"

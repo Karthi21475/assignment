@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <br />
       <br />
-      <div className="grid grid-rows-2 grid-cols-3 h-[763px] w-[85%] mx-auto gap-6 py-12">
+      <div className="grid grid-rows-2 grid-cols-3 h-[763px] w-[85%] mx-auto gap-6 py-12 max-[1080px]:grid-rows-3 max-[1080px]:grid-cols-2 max-[900px]:grid-cols-1 max-[900px]:grid-rows-6 max-[900px]:h-fit">
         <div>
           <p className="text-[#9E2349]">About Us</p>
           <h1 className="text-4xl font-[DM_Serif_Display]">
